@@ -11,14 +11,14 @@ A Python application for having voice, video, and screen sharing conversations w
 ## Live Camera Stream
 
 <video controls>
-  <source src="./assets/398572264-a81abaa5-2e70-42a9-857c-5ffbff22f821.mp4" type="video/mp4">
+  <source src="https://github.com/bh2619-k/Real-Time-Vision-Voice-Interface/raw/refs/heads/main/assets/398572264-a81abaa5-2e70-42a9-857c-5ffbff22f821.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
 ## Live Screen Sharing
 
 <video controls>
-  <source src="./assets/410412146-925e3936-c2b8-4442-adf7-8dacd47f9f92.mp4" type="video/mp4">
+  <source src="https://github.com/bh2619-k/Real-Time-Vision-Voice-Interface/raw/refs/heads/main/assets/410412146-925e3936-c2b8-4442-adf7-8dacd47f9f92.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -29,7 +29,7 @@ A Python application for having voice, video, and screen sharing conversations w
 3. Click "Create API Key"
 4. Copy the generated API key and paste it into the appropriate .env file
 
-<img width="600" alt="API key creation" src="https://github.com/saharmor/gemini-multimodal-playground/blob/main/ai%20studio%20api%20key.png">
+<img width="600" alt="API key creation" src="https://github.com/bh2619-k/Real-Time-Vision-Voice-Interface/raw/refs/heads/main/ai-studio-api-key.png">
 
 ### Prerequisites
 
@@ -91,7 +91,7 @@ npm run dev
 ## Standalone Version
 
 <video controls>
-  <source src="./assets/395790433-82228033-fcfb-4730-9723-3ed09e1979a2.mp4" type="video/mp4">
+  <source src="https://github.com/bh2619-k/Real-Time-Vision-Voice-Interface/raw/refs/heads/main/assets/395790433-82228033-fcfb-4730-9723-3ed09e1979a2.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
