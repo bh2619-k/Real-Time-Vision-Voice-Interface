@@ -12,18 +12,21 @@ A Python application for having voice, video, and screen sharing conversations w
 
 </div>
 
-
 ## Full-Stack Version
 
 ## Live Camera Stream
 
-https://github.com/user-attachments/assets/a81abaa5-2e70-42a9-857c-5ffbff22f821
+<video controls>
+  <source src="./assets/398572264-a81abaa5-2e70-42a9-857c-5ffbff22f821.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Live Screen Sharing
 
-https://github.com/user-attachments/assets/925e3936-c2b8-4442-adf7-8dacd47f9f92
-
-
+<video controls>
+  <source src="./assets/410412146-925e3936-c2b8-4442-adf7-8dacd47f9f92.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Getting Your Gemini API Key
 
@@ -35,46 +38,56 @@ https://github.com/user-attachments/assets/925e3936-c2b8-4442-adf7-8dacd47f9f92
 <img width="600" alt="API key creation" src="https://github.com/saharmor/gemini-multimodal-playground/blob/main/ai%20studio%20api%20key.png">
 
 ### Prerequisites
+
 1. Python 3.12 or higher
 2. Node.js 18 or higher
 3. A Google Cloud account
 4. A Gemini API key
 
 ### Backend Setup
+
 1. Clone this repository
 2. Create a virtual environment and activate it:
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ```
 
 3. Install the required packages:
+
 ```bash
 pip install -r requirements.txt
 ```
 
 4. Create a `.env` file in the root directory with your API key:
+
 ```
 GEMINI_API_KEY=your_api_key_here
 ```
 
 5. Start the backend server:
+
 ```bash
 python backend/main.py
 ```
 
 ### Frontend Setup
+
 1. Navigate to the frontend directory:
+
 ```bash
 cd frontend
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Start the development server:
+
 ```bash
 npm run dev
 ```
@@ -83,30 +96,38 @@ npm run dev
 
 ## Standalone Version
 
-https://github.com/user-attachments/assets/82228033-fcfb-4730-9723-3ed09e1979a2
+<video controls>
+  <source src="./assets/395790433-82228033-fcfb-4730-9723-3ed09e1979a2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ### Prerequisites
+
 Same as above, but only Python-related requirements are needed and Tkinter:
-   - On Ubuntu/Debian: `sudo apt-get install python3-tk`
-   - On Fedora: `sudo dnf install python3-tkinter`
-   - On macOS & Windows: Already included with Python
+
+- On Ubuntu/Debian: `sudo apt-get install python3-tk`
+- On Fedora: `sudo dnf install python3-tkinter`
+- On macOS & Windows: Already included with Python
 
 ### Installation
 
 1. Clone this repository or download the standalone folder
 
 2. Create a virtual environment and activate it:
+
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 3. Install the required packages:
+
 ```bash
 pip install -r requirements.txt
 ```
 
 4. Create a `.env` file in the standalone directory with your API key:
+
 ```
 GEMINI_API_KEY=your_api_key_here
 ```
@@ -115,6 +136,7 @@ GEMINI_API_KEY=your_api_key_here
 
 1. Make sure your virtual environment is activated
 2. Run the script:
+
 ```bash
 python standalone.py
 ```
